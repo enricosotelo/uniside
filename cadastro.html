@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uniside</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="content bg"></div>
+    <div class="limiter">
+      <div class="container-login100">
+        <div class="wrap-login100">
+          <div class="login100-form-title" style="background-image: url(./assets/imagens/OS-EMP~1.png);">
+            <span class="login100-form-title-1">
+              Cadastro
+            </span>
+          </div>
+          <form class="login100-form validate-form" action="assets/php/cadastro.php" method="POST" onsubmit="return validateForm()">
+            <div class="wrap-input100 validate-input m-b-26" data-validate="Nome is required">
+              <span class="label-input100">Nome</span>
+              <input class="input100" type="text" name="nome" placeholder="Inserir seu nome completo">
+              <span class="focus-input100"></span>
+          </div>
+            <div class="wrap-input100 validate-input m-b-26" data-validate="RA is required">
+                <span class="label-input100">R.A</span>
+                <input class="input100" type="number" name="ra" placeholder="Inserir o R.A">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input m-b-26" data-validate="Email is required">
+              <span class="label-input100">Email</span>
+              <input class="input100" type="text" name="email" placeholder="Inserir seu email">
+              <span class="focus-input100"></span>
+          </div>
+        
+            <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
+                <span class="label-input100">Senha</span>
+                <input class="input100" type="password" name="password" id="password" placeholder="Inserir a senha">
+                <span class="focus-input100"></span>
+            </div>
+        
+            <div class="wrap-input100 validate-input m-b-18" data-validate="Password is required">
+                <span class="label-input100">Repetir Senha</span>
+                <input class="input100" type="password" name="password_repeat" id="password_repeat" placeholder="Inserir a senha novamente">
+                <span class="focus-input100"></span>
+            </div>
+        
+            <div id="password_mismatch_warning" style="color: red; display: none;">
+                As senhas não coincidem.
+            </div>
+        
+            <div class="flex-sb-m w-full p-b-30">
+                <div class="contact100-form-checkbox">
+                    <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                    <label class="label-checkbox100" for="ckb1">
+                        lembrar de mim
+                    </label>
+                </div>
+            </div>
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Cadastrar
+                </button>
+            </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-box">
+        <div class="text-footer">
+          <h1>
+           A Uniside company from UFE Group.
+          </h1>
+        </div>
+        <div class="text-footer">
+          <div class="text-footer-area">
+              <a>Entre em contato</a>
+              <a>Sobre nós</a>
+              <a>Diretórios</a>
+              <a>Blog</a>
+          </div>
+          <div class="text-footer-area">
+              <a>Promoções</a>
+              <a>Carreiras</a>
+              <a>Patentes</a>
+              <a>FAQs</a>
+          </div>
+          <div class="text-footer-area">
+              <a>Uniside Walpapers</a>
+              <a>Responsabilidade com o mundo</a>
+              <a>Central de Suporte</a>
+              <a>Galeria</a>
+              <br>
+          </div>
+        </div>
+        <hr>
+        <div class="logo-area">
+          <div class="logo-footer">
+            <div class="uni"><img src="assets/imagens/unimar.png" alt=""></div>
+            <div class="compra"><img src="assets/imagens/compra-Segura-vetor-branco1-640w.png" alt=""></div>
+            <div class="proje"><img src="assets/imagens/projetos.png" alt=""></div>
+            <div class="ufe"><img src="assets/imagens/ufe-removebg.png" alt=""></div>
+          </div>
+        </div>
+        <div class="final-footer">
+          <div class="block1">
+            <p>Endereço: Av. Higino Muzi Filho, 1001 - Mirante, Marília - SP, 17525-902,<br>
+              Áreas atendidas: Marília e as proximidades</p>
+          </div>
+          <div class="block-2">
+            <p>Siga a gente: <a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-x-twitter"></i></a><a href=""><i class="fa-brands fa-linkedin"></i></a></p> 
+          </div>
+          <div class="block3">
+            <p>Acompanhe as últimas notícias e receba ofertas exclusivas:</p>
+            <div class="news">
+              <div class="news-bottons">
+            
+              </div>
+              <p>Todos Direitos reservados &copy;Uniside&trade;</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script> 
+     function validateForm() {
+        var password = document.getElementById("password").value;
+        var passwordRepeat = document.getElementById("password_repeat").value;
+
+        if (password !== passwordRepeat) {
+            document.getElementById("password_mismatch_warning").style.display = "block";
+            return false; 
+        } else {
+            document.getElementById("password_mismatch_warning").style.display = "none";
+            return true;
+        }
+    }
+    </script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

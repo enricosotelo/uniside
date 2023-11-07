@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+.bg {
+    background-image: url(../imagens/OS-EMP~1.png);
+    width: 100%;
+    height: 100vh !important;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.847);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0 ) !important;
+    height: 20vh;
+    margin-left: 5%;
+}
+
+ul li a {
+    color: #8e8e8e !important;
+    font-size: 24px !important;
+}
+
+
+.text-area {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    width: 100%;
+    text-align: left;
+    height: auto;
+    display: flex;
+    position: absolute;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 4.5em;
+    color: #ffffff;
+    letter-spacing: -4px;
+    text-shadow: 0 0 2px rgba(6, 47, 88, 0.3), 0 0 4px rgba(5, 45, 85, 0.3), 0 0 6px rgba(7, 55, 103, 0.3);
+}
+
+.text p {
+    font-weight: 300;
+    font-size: 0.8em;
+    max-width: 700px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn-primary {
+    margin-right: 15% !important;
+    background-color: #ffffff00;
+    max-width: 140px;
+    font-size: 18px !important;
+}
+
+.btn-primary:hover {
+    background-color:#000000;
+}
+
+
+.logo-area {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-area img {
+    max-width: 200px;
+    margin-left: 5%;
+}
+
+.text2-area {
+    width: 50%;
+    height: auto;
+}
+
+body{
+    background-color: #000000;
+}
+
+.container2 {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #073476;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #073476;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+ol {
+    list-style-type: decimal;
+    color: #8e8e8e;
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    max-width: 70%;
+    height: auto;
+}
+

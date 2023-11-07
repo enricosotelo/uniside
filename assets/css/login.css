@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0 ) !important;
+    height: 20vh;
+    margin-left: 5%;
+}
+
+ul li a {
+    color: #ffffff !important;
+    font-size: 24px !important;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/OS-EMP~1.png);
+    background-repeat: no-repeat;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 82vh;
+
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    color: #000; /* Cor do texto dentro do card */
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #00000077;
+    backdrop-filter: blur(10px); 
+  }
+
+footer h1 {
+  font-weight: 800;
+}
+  
+  .footer-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .text-footer {
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1rem;
+    display: flex;
+  }
+  
+  .text-footer-area {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+  }
+  
+  .text-footer-area a {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    text-decoration: none !important;
+    color: #fff;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  
+  hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+  
+  .logo-area {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .logo-footer {
+    max-width: 100%;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+
+  .logo-footer img {
+    max-width: 200px;
+    margin: 15%;
+  }
+
+
+  .uni {
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .compra {
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .proje {
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .final-footer {
+    width: 100%;
+    height: auto;
+    background-color:#000000;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  
+  .block1 {
+    max-width: 33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .block1 img {
+    max-width: 200px;
+  }
+  
+  .block1 p {
+    font-size: 0.7rem;
+    color: #fff;
+  }
+  
+  .block-2 p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .block-2 i {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .block2 {
+    max-width: 33%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .block3 {
+    max-width: 33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .block3 p {
+    font-size: 0.7rem;
+  }
+  
+  .news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .news-bottons {
+    display: flex;
+  }
+  
+  .news-bottons a {
+    background-color: #5317b4  !important;
+    width: 100px;
+  }
+  
+
+
+
+
